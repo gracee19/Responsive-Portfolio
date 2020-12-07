@@ -11,13 +11,13 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Grace Palenzuela</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="index.html">Grace Palenzuela</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleburger"
+            aria-controls="navbarToggleburger" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <div class="collapse navbar-collapse" id="navbarToggleburger">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                 </li>
@@ -39,13 +39,13 @@
 
             <div class="rgba-black-strong rounded p-5">
 
-                <!-- Section heading -->
+                <!-- Section heading & Form-->
                 <h3 class="text-center font-weight-bold text-white mt-3 mb-5">Contact</h3>
 
                 <form class="mx-md-5" action="">
 
                     <div class="row">
-                        <div class="col-md-6 mb-4">
+                        <div class="col-md-12 mb-4 mr-md-5">
 
                             <div class="card">
                                 <div class="card-body px-4">
@@ -53,20 +53,20 @@
                                     <!-- Name -->
                                     <div class="md-form md-outline mt-0">
                                         <label for="name">Name</label>
-                                        <input type="text" id="name" class="form-control" placeholder="Name">
+                                        <input type="text" id="name" class="form-control" placeholder="Name" required>
                                     </div>
                                     <!-- Email -->
                                     <div class="md-form md-outline">
                                         <label for="email">Email Address</label>
-                                        <input type="text" id="email" class="form-control" placeholder="Email">
+                                        <input type="text" id="email" class="form-control" placeholder="Email" required>
                                     </div>
                                     <!-- Message -->
                                     <div class="md-form md-outline">
                                         <label for="message">Message</label>
                                         <textarea id="message" class="md-textarea form-control" rows="4"
-                                            placeholder="Message"></textarea>
+                                            placeholder="Message" required></textarea>
                                     </div>
-
+                                    <!-- Submit Button -->
                                     <button type="submit"
                                         class="btn btn-primary btn-md btn-block ml-0 mb-0">Submit</button>
 
@@ -85,7 +85,22 @@
 
 
     </div>
+    <!-- Footer -->
+    
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
 
 </body>
+
 
 </html>
