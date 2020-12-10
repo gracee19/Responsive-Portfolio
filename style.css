@@ -1,0 +1,23 @@
+.contact-form{
+    max-width: 600px;
+}
+
+footer {
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+}
+
+h1{
+    text-align: center;
+    color:black;
+}
+
+body{
+    background-size: cover;
+    background-image: url('images/background.jpg');
+}
+
+p {
+    font-size: large;
+}
