@@ -8,4 +8,4 @@ In this file, 3 sets of html have been made to make a contact page, portfolio pa
 
 I have used a grid system and a bit of JS in the html file. I have put in the portfolio some of the images I took.
 
-![screenshot-of-the-homepage](images/ss1.png)
+![screenshot-of-the-homepage](./assets/images/ss1.png)
