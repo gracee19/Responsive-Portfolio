@@ -8,7 +8,7 @@ footer {
     bottom: 0;
 }
 
-h1{
+h1,h2{
     text-align: center;
     color:black;
 }
@@ -20,4 +20,13 @@ body{
 
 p {
     font-size: large;
+}
+
+i.fab{
+    font-size: 25px;
+    color: black;
+}
+.projects{
+    margin-bottom: 10px;
+    page-break-after:auto;
 }
